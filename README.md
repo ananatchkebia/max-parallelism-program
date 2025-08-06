@@ -1,10 +1,10 @@
-#Builder of maximal parallelism task's system
+# Builder of maximal parallelism task's system
 
 As we know, there are running many processes in computer, some of them run parallely, but some processes depend on another process and one have to wait while another
 will be finished.In this program I'm trying to visualise how this processes are connected to each other and trying to build system, where processes are executed maximally in
 parallel. 
 
-##Features
+## Features
 
 - I have inital direct graph, where nodes are tasks(processes), running in computer, and edges show dependendencies between tasks
 - I defined memory cells and initialized them with random int values.I define two lists of memory cells for each task for reading and writing. Later,
@@ -19,7 +19,7 @@ parallel.
 - you can see tasks' order while running sequentially and see which tasks are executed in paralel while running paralelly
 - I use semaphores for multithreading, while running tasks parallelly
   
-##Technologies used
+## Technologies used
 
 - OOP structure of Python programming language
 - matplotlib library for drawing and showing visually processes and dependencies between them
@@ -27,7 +27,7 @@ parallel.
 - Topological sorting
 - multithreading
 
-##How to run and how to see what this program does
+## How to run and how to see what this program does
 you can use any IDE that supports Python programming language, clone this repository, 
 make sure that all imported libraries are installed in your IDE, run "test_script.py" file.
 At first you will see window with initial graph, you should close this window and after the second window with reconstructed graph will be poped up.
